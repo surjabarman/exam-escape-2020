@@ -1,0 +1,404 @@
+/****font-family: 'Roboto', sans-serif;******/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/************header end**********/
+header{
+	background-image: url(../images/escape-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 20%;
+    float: left; 
+}
+.logo img {
+    margin-top: 35px;
+    cursor: pointer;
+}
+.menu{
+    width: 70%;
+   float: right;
+}
+.menu ul {
+   float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;   
+}
+.menu ul li a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 30px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    transition: .3s;
+    border-bottom: 3px solid transparent;
+}
+.menu ul li a:hover{
+    border-bottom: 3px solid #663C46;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/**********header end***********/
+
+/**********Banner start***********/
+.banner{}
+.b_content {
+    text-align: center;
+    margin: 120px 0;
+}
+.b_content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+}
+.b_content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 66px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+.button {
+	font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 45px;
+}
+/***********Banner end***********/
+
+/**********service start**********/
+.d-service{
+	background-color: #fff;
+}
+.s-content{
+	width: 60%;
+	float: left;
+	padding: 80px 0;
+	margin-left: 25px;
+}
+.s-title{
+	font-weight: 700;
+	font-size: 60px;
+	color: #222;
+	margin-top: 0;
+    margin-bottom: 30px;
+}
+.s-title2{
+	font-weight: 300;
+}
+.s-para{
+	font-size: 19px;
+	color: #777;
+	margin-top: 35px;
+    line-height: 26px;
+}
+.s-img{
+	width: 20%;
+	float: right;
+	margin-right: 100px;
+}
+.s-img img{
+	width: 100%;
+	margin-top: 120px;
+	margin-right: 100px;
+}
+.i-service{
+	background-color: #fafafa;
+}
+.i-img{
+	width: 20%;
+	float: left;
+	padding: 90px 0;
+	margin-left: 22px;
+}
+.i-img img{
+	width: 100%;
+	margin-top: 55px;
+}
+.i-content{
+	width: 60%;
+	float: right;
+	margin-right: 100px;
+	padding: 80px 0;
+}
+/**********service end*************/
+
+/**********skill start*************/
+.skill-survice{
+	padding: 80px 0;
+}
+.skill-survice1{
+	width: 47%;
+	float: left;
+	margin-left: 22px;
+}
+
+.skill-icon{
+	width: 15%;
+	float: left;
+	text-align: center;
+	display: inline-block;
+	padding: 20px 5px ;
+}
+.skill-icon img{
+	width: 100%;
+}
+.skill-content{
+	width: 80%;
+}
+.skill-content h1{
+	font-weight: 300;
+	font-size: 22px;
+}
+.skill-content p{
+	color: #777;
+	margin-bottom: 30px;
+}
+.skill-survice2{
+	width: 47%;
+	float: right;
+}
+/**********skill end**************/
+
+/**********awesome clients strat**************/
+.a-clients{
+	font-family: 'Roboto', sans-serif;
+	background-color: #fafafa;
+}
+.top-title{
+	text-align: center;
+}
+.top-title h1{
+	font-weight: 300;
+	font-size: 60px;
+	color: #222;
+}
+.top-title span{
+	font-weight: 700;
+}
+.top-title p{
+	font-size: 20px;
+	color: #777;
+	margin-top: -45px;
+	margin-bottom: 50px;
+}
+.c-content{
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.c-img{
+	width: 20%;
+	float: left;
+	margin-left: 22px;
+}
+.c-img img{
+	width: 100%;
+}
+.c-msg{
+	width: 70%;
+	float: right;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 45px;
+    padding: 35px 0;
+}
+.msg{
+	font-weight: 400;
+	font-size: 26px;
+	color: #777;
+	line-height: 25px;
+	text-align: center;
+}
+.n-msg{
+	font-weight: 400;
+	font-size: 20px;
+	color: #7690c5;
+	margin-left: 90px;
+}
+.c-content2{
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.c-msg2{
+	width: 70%;
+	float: left;
+	background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: 65px;
+    padding: 35px 0;
+}
+.c-img2{
+	width: 20%;
+	float: right;
+}
+.c-img2 img{
+	width: 100%;
+}
+/**********awesome clients end**************/
+
+/**********logos area strat**************/
+.logos{
+	text-align: center;
+	padding: 50px 0;
+}
+.l-img{
+	padding: 0 15px;
+	display: inline-block;
+}
+.l-img img{
+	width: 100%;
+}
+/**********logos area end**************/
+
+/**********our team strat**************/
+.team{
+	background-color: #111;
+	padding: 80px 0;
+}
+.t-title{
+	text-align: center;
+}
+.t-title h1{
+	font-weight: 900;
+	font-size: 60px;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: -15px;
+}
+.t-title span{
+	font-weight: 300;
+	margin-top: 50px;
+}
+.t-title p{
+	font-size: 22px;
+	color: #777;
+	margin-bottom: 70px;
+}
+.t-content{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.t-img{
+	width: 100%;
+	margin-left: 22px;
+}
+.t-img h2{
+	font-size: 18px;
+	color: #fff;
+}
+.t-img p{
+	color: #ebebeb;
+}
+.t-icon ul{
+    text-align: center;
+}
+.t-icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.t-icon ul li a{
+	text-decoration: none;
+}
+.button-content{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #ebebeb;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 35px;
+}
+/**********our team strat**************/
+
+/**********contact strat**************/
+.contact{
+	background-color: #7690c5;
+	padding: 80px 0;
+}
+.contact-content{
+	width: 45%;
+	float: left;
+}
+.contact-content h2{
+	font-weight: 700;
+	font-size: 60px;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.contact-content span{
+	font-weight: 300;
+}
+.contact-content p{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 20PX;
+}
+.contact-icon{
+	width: 5%;
+	float: left;
+	padding-top: 20px;
+}
+.contact-info{
+	width: 40%;
+	float: left;
+	margin-left: 13px;
+}
+.contact-form{
+	width: 45%;
+	float: right;
+}
+.first_name, .your_email{
+    width: 100%;
+    height: 45px;
+    display: block;
+    border: none;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    outline: none;
+}
+#message {
+    padding: 10px 15px;
+    outline: none;
+}
+/*********contact end**************/
+
+/*********footer start**************/
+footer{
+	background-color: #7690c5;
+
+}
+.f-para{
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	border: none;
+	border-top: 1px solid #87a0d2;
+	padding: 25px 0 10px;
+}
+/*********footer end**************/
+
+/***********************1ST EXAM PSD TO HTML***************************/
+/**********SSB-270 ONLINE BATCH-17,MENTOR-MINHAZ FAISAL VAI************/
+/***********************CODEING-SURJA BARMAN***************************/
